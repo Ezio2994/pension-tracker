@@ -1,3 +1,5 @@
+# pension-tracker
+
 # Solution approach
 
 To plan my approach to the challenge, I conducted research on specific industry-related knowledge to meet the test requirements. I hope the information I gathered is accurate, and the solution correctly fulfills the specified requirements.
@@ -24,4 +26,3 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-# pension-tracker
