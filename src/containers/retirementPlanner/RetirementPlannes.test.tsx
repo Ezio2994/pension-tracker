@@ -22,7 +22,6 @@ describe("RetirementPlanner", () => {
     fireEvent.click(screen.getByText(/Add Pot/i));
     fireEvent.click(screen.getByText(/Submit/i));
 
-    // Wait for asynchronous state updates
     await waitFor(() => {
       expect(screen.getByText(/Desired pot/i)).toBeInTheDocument();
       expect(screen.getByText(/Projected pot/i)).toBeInTheDocument();
